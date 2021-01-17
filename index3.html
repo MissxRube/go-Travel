@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html class="no-js"> <!--<![endif]-->
+
+
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>高定-旅遊分享媒合平台</title>
+  <meta name="keywords" content="background, video, jquery, plugin, javascript, css, 360, youtube">
+  <meta  name="description" content="Create fullscreen youtube background videos with this jquery plugin.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+   <!--字體  -->
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+  <!-- 動畫 -->
+  <link rel="stylesheet" href="./src/animate.css">
+  
+  <script src="./src/wow.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  
+  <!-- 圖片 -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" >
+  
+  <!-- Twitter Boostrap for Demo -->
+  <link rel="stylesheet" href="http:////maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <!-- styles for video player -->
+  <link rel="stylesheet" href="./src/style.css">
+  <link rel="stylesheet" href="./src/main.css">
+  <link rel="stylesheet" href="./src/index.css">
+
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+  <script src="./src/swiper-bundle.js"></script>
+
+</head>
+<body>
+  <!--背景  -->
+  <div id="background-video" class="background-video">
+    <img src="images/placeholder.jpg" alt="" class="placeholder-image">
+  </div>
+<!-- 版頭開始 -->
+
+
+
+<div class="container-fulid">
+    <nav class="navbar navbar-dark navbar-expand-sm ">
+        <h1 class="navbar-brand" id="logo">GO-trave</h1>
+        <button data-toggle="collapse" data-target='#submenu' class='navbar-toggler'><span class="navbar-toggler-icon"></span></button>
+        <div class='navbar-collapse collapse justify-content-end navbar-collapse-center pt-1 ' id='submenu'>
+            <ul class='navbar-nav navbar-center  nav'>
+                <li class="nav-item "><a href="index3.html" class="nav-link large text-info  disabled">首頁</a> </li>
+                <li class="nav-item"><a href="world2.html" class="nav-link large  ">國外旅遊</a></li>
+                <li class="nav-item"><a href="taiwan.html" class="nav-link large ">國內旅遊</a></li>
+                <li class="nav-item"><a href="pro-intro.html" class="nav-link large">玩家訂製</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link large">關於我們</a></li>               
+            </ul>
+            <ul class='navbar-nav navbar-right  nav'>
+                <li class="nav-item "><a href="login.html" class="nav-link large"><i class="fas fa-user"></i></a> </li>
+                
+                <li class="nav-item "><a href="#" class="nav-link large"><i class="fas fa-shopping-cart"></i></a> </li>
+            </ul>
+        </div>
+    </nav>
+  <!-- 版頭結束 -->
+  <!-- 首頁上層開始 -->
+  <div class="row ">
+    <div class="col-3 offset-1 bg-color mb-5 visible-lg  visible-md ">
+      <p class="decoration_p ">GO-Trave</p>
+    </div>
+    <div class="col-lg-7 col-md-12 newlife-padding bg-color text-white mb-5 " style="height: 500px; "> 
+      <h1 class="text-center decoration-a">A New chapter in ther story of Prosecco</h1>
+      <h2 class="text-center">為您的人生打開新篇章</h2> 
+
+      <img src="./images/arrow1.png" alt="" id="arrow" class="img-fluid arrow pt-5 mt-4  wow  fadeOutDown" >
+
+    </div>
+     
+  </div>
+  <!-- 首頁下層開始 -->
+  <!-- 世界與台灣開始 -->
+    <div class="row ">
+        <div class="col-5 offset-1 filter-div">
+        <a href="world2.html"  class="filter-a">
+            <img src="./images/world.png" alt=""  class='img-fluid filter-img'>
+            <p class="filter-p h3 ">World</p>
+        
+        </div>
+        <div class="col-5 filter-div">
+        <a href="taiwan.html" class="filter-a">
+            <img src="./images/taiwan.png" alt="" class='img-fluid filter-img'>
+            <p class="filter-p  h3">Taiwan</p>
+        </a>
+        </div>
+
+    </div>
+  <!-- 世界與台灣結束 -->
+  <!-- 產品介紹文開始 -->
+    <div class="row mt-5 ">
+        <div class="offset-md-1 col-12 col-md-10 bg-color text-center golden-title"  >
+            <img src="./images/side-line.png" alt="" class="img-fluid">
+            <p>提供服務</p>   
+        </div>
+        <div class="col-12 col-md-5 offset-md-1 bg-color ">
+            <img src="images/4.jpg" alt="" class="img-fluid wow fadeInLeft img-border p-4" data-wow-delay="0.5s"> 
+        </div>
+        <div class="col-12 col-md-5 bg-color text-center">
+            <div class="h2 text-center golden-title  mt-3">廠商訂製合作</div>
+            <p class="h4  golden-large pt-2">
+              私人訂製服務，針對講究品質的旅人，提供一對一的諮詢，依據人數、目的和預算等不同需求，「量身打造」最適合的專屬行程。
+              不管是眉角較多的家族親子旅遊？幸福溫馨的蜜月或結婚周年紀念慢遊？別出心裁的員工獎勵旅行？
+              不管您為了什麼、跟誰出發、想去哪裡，把時間用在打包行李上，其餘的都交給我們吧！
+            </p>
+            <a class="btn btn-info pt-1">see more</a>
+        </div>
+    </div>
+
+
+    <div class="row ">
+        <div class="col-12 col-md-5 offset-md-1 bg-color text-center order-2 order-xs-2 order-md-1">
+            <div class="h2 text-center golden-title mt-3 ">旅行規劃師諮詢</div>
+            <p class="h4  golden-large pt-2">
+                細節的貼心安排只是基本，私房路線無私推薦才是王道。<br>
+                在仔細的溝通之後，旅行規劃師會依據成員組合和特殊需求規劃行程，並分享私房路線，甚至是拜訪在地好朋友。
+                旅途中的食衣住行育樂，行程的細部設計、適當修改和預約聯繫，這些都只是旅行規劃師必須反覆確認的基礎工程，我們更希望與您分享的是關於旅行與生活。
+            </p>
+            <a class="btn btn-info pt-1">see more</a>          
+        </div>
+        <div class="col-12 col-md-5 bg-color text-center order-sm-1 order-1 order-md-2">
+            <img src="images/3.jpg" alt="" class="img-fluid wow fadeInRight img-border p-4" data-wow-delay="0.5s">
+        </div>
+    </div>
+  
+    <div class="row ">
+        <div class="col-12 col-md-5 offset-md-1 bg-color ">
+            <img src="images/7.jpg" alt="" class="img-fluid wow fadeInLeft img-border p-4" data-wow-delay="0.5s">    
+        </div>
+        <div class="col-12 col-md-5 bg-color text-center">
+            <div class="h2 text-center golden-title mt-3">MICE會展旅遊洽詢</div>
+            <p class="h4  golden-large pt-2">
+            包含會議 (Meeting)、獎勵旅遊 (Incentive)、大會 (Convention)、展覽 (Exhibition) 四種型態的縮寫，是現代企業內部最普遍，也最受員工或經銷商歡迎的一種獎勵方式。
+            業主除了希望以會展旅遊（MICE Tourism）激勵士氣、犒賞員工以提高生產力、達到業績目標外，也藉著量身訂製的活動來凝聚員工向心力。透過周詳及特定目標的行程，如專業團體到特定國家或地區參加會議展覽，並在工餘時間安排觀光及消費，能同時增進專業與開拓視野。
+            </p>
+            <a class="btn btn-info pt-1">see more</a>
+            
+        </div>
+    </div>
+
+    <div class="row ">
+        <div class="col-12 col-md-5 offset-md-1 bg-color text-center  order-2 order-md-1">
+            <div class="h2 text-center golden-title mt-3 ">客製化旅行手冊</div>
+            <p class="h4 golden-large pt-2">
+                我們針對每趟旅行，製作客製化的旅行手冊。
+                每本旅行手冊都是獨門秘笈，除了清楚標示旅途上所需的基本資訊外，詳盡交通動線安排、旅行規劃師的貼心小提醒，讓您的旅行更加順暢；私房散步路線和內行人餐食推薦，帶您體驗道地的在地生活；手冊中的空白頁，留給您自由書寫或蓋下紀念印章留念，記憶旅途中的每段奇遇。
+            </p>
+            <a class="btn btn-info pt-1">see more</a>          
+        </div>   
+        <div class="col-12 col-md-5 bg-color text-center order-1  order-md-2 ">
+            <img src="images/8.jpg" alt="" class="img-fluid wow fadeInRight img-border p-4" data-wow-delay="0.5s">
+        </div>    
+
+    </div>
+    <!-- 行程開始 -->
+    <div class="row ">
+        <div class="offset-md-1 col-md-10 bg-color  golden-title text-center">
+            <img src="./images/side-line.png" alt="" class="img-fluid">
+            <sapn  >頂級旅遊行程</span>  
+        </div>
+                
+    </div>
+
+
+
+
+   
+    <!-- Initialize Swiper -->
+
+    <div class="row ">
+        <div class="col-12 offset-md-1 col-md-10 bg-color "  >
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class=" col-md-4  col-6 wow fadeInUp swiper-slide" data-wow-delay="0.5s">
+                        <div class="card bg-color text-center golden">
+                        <div class="card-title golden-large">隱密奢華熱帶天堂-巴哇私島 </div>
+                        <img  class='card-img-top' src="./images/ontop1.jpg" alt="batam" class="img-fluid">
+                        <p class="card-text ellipsis">Bawah Reserve 位於印尼廖內省的阿南巴斯群島（Anambas Islands），其環境毫無污染、原始氣息濃厚，距離新加坡僅僅 3 小時航程。要造訪這小島，旅客只須先抵達新加坡，由度假村先派遣轎車送您前往新加坡當地碼頭Tanah Merah，以專屬快艇前往巴淡島（Batam Island），轉乘至巴淡島機場以尊榮 VIP 服務入境後，隨即搭乘私人水上飛機抵達目的地。</p>
+                        <a href="world2.html" class="card-link mb-5" >查看詳請</a>
+                        
+                        </div>
+                    </div>
+                    <div class=" col-md-4 col-6 wow fadeInUp swiper-slide " data-wow-delay="0.5s">
+                        <div class="card bg-color text-center golden">
+                        <div class="card-title golden-large">海島頂級慢活-峇厘島</div>
+                        <img  class='card-img-top' src="./images/ontop3.jpg" alt="batam" class="img-fluid">
+                        <p class="card-text ellipsis">位於峇里島內、面向印度洋，峇厘島雷吉安飯店提供位於園景熱帶花園中的奢華住宿。距離市區繁華地段僅六公里路程，這間五星級飯店的位置非常優越，Seminyak海灘、Kayu Aya市場都近在咫尺，附設一座三層室外游泳池。</p>
+                        <a href="world2.html" class="card-link mb-5" >查看詳請</a>
+                        </div>
+                    </div>
+                    <div class=" col-md-4 col-6 wow fadeInUp swiper-slide" data-wow-delay="0.5s">
+                        <div class="card bg-color text-center golden">
+                        <div class="card-title golden-large ">印度洋上的珍珠 - 斯里蘭卡 </div>
+                        <img  class='card-img-top' src="./images/ontop4.jpg" alt="batam" class="img-fluid">
+                        <p class="card-text ellipsis">古名【錫蘭】，詞意為「光明富饒的樂土」，斯里蘭卡自古以來就是東西方銜接的海上樞紐，印度人、歐洲人、阿拉伯人、中國人都在這裡留下了足跡與多元文化。雖國土面積不大，但世界遺產豐富、沿著國土蔚藍的海岸線、宗教的神祕、動植物在此富饒生生不息、純樸的人民及獨特的生活文化。
+                
+                            有「印度洋上的珍珠」美名的斯里蘭卡。</p>
+                        <a href="world2.html" class="card-link mb-5" >查看詳請</a>
+                        
+                        </div>
+                    </div>
+
+                    <div class=" col-md-4 col-6 wow fadeInUp swiper-slide" data-wow-delay="0.5s">
+                        <div class="card bg-color text-center golden">
+                        <div class="card-title golden-large ">南美千年古文明-秘魯 </div>
+                        <img  class='card-img-top' src="./images/ontop5.jpg" alt="batam" class="img-fluid">
+                        <p class="card-text ellipsis">
+                            南美洲共有13個國家，其中以文明古國秘魯最有資格做為單一深度旅遊的國家，也是南美旅遊達人Eric最推薦的南美旅遊目的地。秘魯是全世界最富觀光資源的國家之一，它的面積是台灣的35倍大，是考古學家心目中的黃金國度，也是世界公認的旅遊天堂，如自然生態美景、美食美酒、人文歷史和享譽全球的千年遺產，都是鄰國所無法比擬的。</p>
+                        <a href="world2.html" class="card-link mb-5" >查看詳請</a>
+                        
+                        </div>
+                    </div>
+
+                    <div class=" col-md-4 col-6 wow fadeInUp swiper-slide" data-wow-delay="0.5s">
+                        <div class="card bg-color text-center golden">
+                        <div class="card-title golden-large ">與大自然共舞-溫哥華 </div>
+                        <img  class='card-img-top' src="./images/ontop6.jpg" alt="batam" class="img-fluid">
+                        <p class="card-text ellipsis">
+                            漫步北美海拔最高吊橋；去惠勒斯山谷 Whistler Valley、觀賞河流和山地野生動物；乘坐小飛機越過山頂、俯瞰惠斯勒山；漫步全加拿大最美的奇幻森林秘境：卡皮拉諾吊橋公園 Capilano Suspension Bridge；走訪溫哥華發源地：歷史老鎮 Gastown；蒞臨皇后飯店 Fairmont Empress Hotel 品嘗最經典、正宗的下午茶！</p>
+                        <a href="world2.html" class="card-link mb-5" >查看詳請</a>
+                        
+                        </div>
+                    </div>
+                    
+                    <div class=" col-md-4 col-6 wow fadeInUp swiper-slide" data-wow-delay="0.5s">
+                        <div class="card bg-color text-center golden">
+                        <div class="card-title golden-large ">探索絕美世外桃源-菲律賓安縵普羅 </div>
+                        <img  class='card-img-top' src="./images/ontop7.jpg" alt="batam" class="img-fluid">
+                        <p class="card-text ellipsis">
+                        
+安縵普羅 Amanpulo 意為「平靜之島」，也是阿曼豪華酒店集團 (Aman) 旗下唯一一家菲律賓度假村；坐落於私人天堂帕瑪里肯島 (Pamalican)，是蘇祿海庫約群島奎寧阪小島群的一部分，距菲律賓首都馬尼拉約一小時路程，可乘坐私人飛機往返；一島一飯店的形式，讓您保有絕佳的私密性。
+                        </p>
+                        <a href="world2.html" class="card-link mb-5" >查看詳請</a>
+                        
+                        </div>
+                    </div>
+                    <div class=" col-md-4 col-6 wow fadeInUp swiper-slide" data-wow-delay="0.5s">
+                        <div class="card bg-color text-center golden">
+                        <div class="card-title golden-large ">一生至少要去過-埃及 </div>
+                        <img  class='card-img-top' src="./images/ontop8.jpg" alt="batam" class="img-fluid">
+                        <p class="card-text ellipsis">
+                            不得不提的便是列入聯合國教科文組織世界遺產、世界新七大奇蹟的「吉薩金字塔群」。吉薩金字塔群可分為三大、三小，三座大金字塔由右至左分別為古夫、卡夫拉、孟考拉，其中以古夫金字塔最為巨大；圍繞在孟考拉金字塔周圍的小金字塔則為孟考拉皇后之墓。
+                        </p>
+                        <a href="world2.html" class="card-link mb-5" >查看詳請</a>
+                        
+                        </div>
+                    </div>
+                    <div class=" col-md-4 col-6 wow fadeInUp swiper-slide" data-wow-delay="0.5s">
+                        <div class="card bg-color text-center golden">
+                        <div class="card-title golden-large ">奇幻國度帝國── 土耳其  </div>
+                        <img  class='card-img-top' src="./images/ontop9.jpg" alt="batam" class="img-fluid">
+                        <p class="card-text ellipsis">
+                            目前的伊斯坦堡雖然已經不是土耳其的首都，但現有人口達一千四百多萬，仍是土耳其的最大城市，也是其經濟、歷史與文化的中心。伊斯坦堡以其豐富的歷史建築與多元的文化色彩，每年吸引著來自世界各地無數觀光客的造訪，也是不少攝影人非常喜愛的城市之一。 </p>
+                        <a href="#" class="card-link mb-5" >查看詳請</a>
+                        
+                        </div>
+                    </div>
+                    <div class=" col-md-4 col-6 wow fadeInUp swiper-slide" data-wow-delay="0.5s">
+                        <div class="card bg-color text-center golden">
+                        <div class="card-title golden-large ">絕美極光之旅-芬蘭 </div>
+                        <img  class='card-img-top' src="./images/ontop10.jpg" alt="batam" class="img-fluid">
+                        <p class="card-text ellipsis">
+                            尋找北極光可說是許多人畢生的願望，說它是自然界最引人注目的奇景一點也不為過；每年的12月到隔年3月都有大批旅人湧入芬蘭，想親眼體會極致夢幻的震撼感；艾瑪伯頓將帶您認識歐洲僅存的遊牧民族：拉普蘭 Lapin 文化；體驗雪地BBQ、刺激的哈士奇狩獵、馴鹿追極光，雪地摩托車、盡情享受芬蘭傳統桑拿浴。</p>
+                        <a href="#" class="card-link mb-5" >查看詳請</a>
+                        
+                        </div>
+                    </div>
+                   
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+  <!-- Swiper JS -->
+  <script src="./src/swiper-bundle.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 3,
+      loop: true,
+      
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
+
+
+
+
+    <!-- 行程結束 -->
+    <!-- 尾部 -->
+
+    <div class="row "> 
+        <div class="offset-1 col-10 bg-color fa-2x text-center">
+        <i class="fab fa-twitter  socialIcon " ></i>
+        <i class="fab fa-facebook-f  socialIcon"></i>
+        <i class="fab fa-instagram  socialIcon"></i>
+        <i class="fab fa-vimeo  socialIcon"></i>
+        <i class="fab fa-youtube  socialIcon"></i>
+        <p class='text-white h6'>&copy;Allright design by Ruby</p>
+        </div>
+    </div>
+</div>  
+  
+  
+   
+</div>
+<!-- 產品介紹文結束 -->
+
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <!-- ADD Jquery Video Background -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+  <script src="./src/jquery.youtubebackground.js"></script>
+  <script src="./src/main.js"></script>
+  <script>
+    jQuery(function($) {
+
+      $('#module-video').YTPlayer({
+        fitToBackground: false,
+        videoId: 'jKCyFB5LmPo',
+        pauseOnScroll: false,
+        playerVars: {
+          modestbranding: 0,
+          autoplay: 1,
+          controls: 1,
+          showinfo: 0,
+          branding: 0,
+          rel: 0,
+          autohide: 0
+        }
+      });
+      
+      $('#background-video').YTPlayer({
+        fitToBackground: true,
+        videoId: 'mUw6wzof4y4',
+        pauseOnScroll: true,
+        callback: function() {
+          videoCallbackEvents();
+        }
+      });
+      
+      var videoCallbackEvents = function() {
+        var player = $('#background-video').data('ytPlayer').player;
+      
+        player.addEventListener('onStateChange', function(event){
+            console.log("Player State Change", event);
+
+            // OnStateChange Data
+            if (event.data === 0) {          
+                console.log('video ended');
+            }
+            else if (event.data === 2) {          
+              console.log('paused');
+            }
+        });
+      }
+    });
+  </script>
+</body>
+</html>

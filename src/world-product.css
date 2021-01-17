@@ -1,0 +1,83 @@
+*{
+list-style: none;
+text-decoration: none;
+
+}
+.swiper-container {
+    width: 100%;
+    height: 40%;
+    background: #000;
+    overflow: hidden;
+  }
+
+  .swiper-slide {
+    font-size: 18px;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 40px 60px;
+  }
+
+  .parallax-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .swiper-slide .title {
+    font-size: 41px;
+    font-weight: 300;
+  }
+
+  .swiper-slide .subtitle {
+    font-size: 21px;
+  }
+
+  .swiper-slide .text {
+    font-size: 14px;
+    max-width: 400px;
+    line-height: 1.3;
+  }
+  
+
+  .b-body{
+    background-image: url('../images/bg-dark.jpg');
+    background: no-repeat cover center fixed;
+    filter: blur(0.5);
+  }
+ 
+
+  .a-bar{
+    width: 9rem;
+    height: 3rem;
+    border:2px solid #969191 ;
+    border-left: none;
+    color:#fff;
+    line-height:3rem ;
+  }
+  .a-bar:first-child{
+    border-left: 2px solid #969191 ;
+
+  }
+  .a-bar i{
+    padding-left: 5px;
+
+  }
+
+  .a-bar:hover{
+    color:rgb(189, 169, 60);
+    text-decoration: none;
+    background-color: #333;
+  }
+
+  .a-bar:focus{
+    color:rgb(240, 220, 109);
+    text-decoration: none;
+
+
+  }

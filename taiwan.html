@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <!--字體  -->
+        <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+        <!-- 動畫 -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        
+        <!-- 圖片 -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" >
+        
+        <link rel="stylesheet" href="http:////maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        
+        
+        <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+        <!-- gsap動畫 -->
+        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js?r=5426"></script>
+        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js?v=3.3"></script>
+        <script src="./src/taiwan1.js"></script>
+        <link rel="stylesheet" href="./src/main.css">
+        <link rel="stylesheet" href="./src/taiwan.css">
+        
+        <script src="./src/taiwan.js"></script>
+        <style>
+                .imgtest{
+                        width:27vw; height:27vh;        
+                       
+                        background-image:url('./images/north.jfif') ;
+                        background-size:100%;
+                        background-repeat: no-repeat;
+                        background-size: contain;
+        
+                }
+        </style>
+        <script>
+              
+    
+
+        </script>
+</head>
+<body>
+        <div class="container-fulid">
+                <nav class="navbar navbar-dark navbar-expand-sm ">
+                    <h1 class="navbar-brand" id="logo">GO-trave</h1>
+                    <button data-toggle="collapse" data-target='#submenu' class='navbar-toggler'><span class="navbar-toggler-icon"></span></button>
+                    <div class='navbar-collapse collapse justify-content-end navbar-collapse-center pt-1 ' id='submenu'>
+                        <ul class='navbar-nav navbar-center  nav'>
+                            <li class="nav-item "><a href="index3.html" class="nav-link large ">首頁</a> </li>
+                            <li class="nav-item"><a href="world2.html" class="nav-link large  ">國外旅遊</a></li>
+                            <li class="nav-item"><a href="taiwan.html" class="nav-link large text-info  disabled">國內旅遊</a></li>
+                            <li class="nav-item"><a href="pro-intro.html" class="nav-link large">玩家訂製</a></li>
+                            <li class="nav-item"><a href="about.html" class="nav-link large">關於我們</a></li>               
+                        </ul>
+                        <ul class='navbar-nav navbar-right  nav'>
+                            <li class="nav-item "><a href="login.html" class="nav-link large"><i class="fas fa-user"></i></a> </li>
+                            
+                            <li class="nav-item "><a href="#" class="nav-link large"><i class="fas fa-shopping-cart"></i></a> </li>
+                        </ul>
+                    </div>
+                </nav>
+              
+              </div>
+            
+                <div class="row">
+                        <div class="col-12">
+                                <div class="d-flex justify-content-center text-center  li-bar ">
+                                <a href="#hot" class="a-bar">熱門行程<i class="fab fa-gripfire"></i></a>        
+                                <a href="#north" class="a-bar">熱門北部行程<i class="fas fa-city"></i></a>
+                                <a href="#central" class="a-bar">熱門中部行程<i class="fas fa-seedling"></i></a>
+                                <a href="#south" class="a-bar">熱門南部行程<i class="fas fa-umbrella-beach"></i></a>
+                                <a href="#east" class="a-bar">熱門東部行程<i class="fas fa-mountain"></i></a>
+                                
+                                </div>
+                        </div>
+                </div>
+               
+
+                <section class="comparisonSection">
+                <div class="comparisonImage beforeImage">
+                        <div class="col-12  " id='hot'>
+                                
+                                <h1 class="first-title">熱門行程</h1>
+                            
+                                
+                                        <div class="col-12 row">
+                                                <div class="col-md-6 col-12">
+                                                        
+                                                        <a href="./world-product.html" class="hotproduct col-12  mt-5 ml-2 row barbar" style="text-decoration:none;">
+                                                                <div class=" col-4 imgtest mt-5"></div>
+                                                                
+                                                                <div class="col-8 mt-md-5 mt-3"> 
+                                                                        <h5 class="text-dark h4">外木山情人湖濱海大道</h5>
+                                                                        <p class=" text-muted ellipsis-small">外木山海岸為基隆市轄區僅存最長的天然海岸。自外木山漁港至澳底通村全長約5公里的海岸公路。一側為開闊的海岸景觀，一側為高聳的單面山懸崖，是極富壯麗景色的海岸線。在澳底漁村的沙灘是僅存的沙岸地型，小而美麗，夏日時成為民眾戲水游泳的好去處。夏季的日出是海岸不可多得的美景，坐在岸邊聆聽濤聲，欣賞彩霞萬丈之景，令人心曠神怡。海岸礁岩長年經海水沖蝕，雕塑出奇特的造形，值得民眾深入觀賞體會。</p>
+                                                                        <div class=" row justify-content-between">
+                                                                                <small class="text-danger col-4 col-md-7">$ 590起</small>
+                                                                                <span class="align-items-end text-muted hoveritem  col-8 col-md-5">點擊查看詳情</span>
+                                                                        </div>
+                                                                </div>
+                                                        
+                                                        </a>
+                                                       
+                                                </div>
+                                                <div class="col-md-6 col-12">
+                                                        
+                                                        <a href="./world-product.html" class="hotproduct col-12  mt-5 ml-2 row barbar" style="text-decoration:none;">
+                                                                <div class=" col-4 imgtest mt-5"></div>
+                                                                
+                                                                <div class="col-8 mt-md-5 mt-3"> 
+                                                                        <h5 class="text-dark h4">外木山情人湖濱海大道</h5>
+                                                                        <p class=" text-muted ellipsis-small">外木山海岸為基隆市轄區僅存最長的天然海岸。自外木山漁港至澳底通村全長約5公里的海岸公路。一側為開闊的海岸景觀，一側為高聳的單面山懸崖，是極富壯麗景色的海岸線。在澳底漁村的沙灘是僅存的沙岸地型，小而美麗，夏日時成為民眾戲水游泳的好去處。夏季的日出是海岸不可多得的美景，坐在岸邊聆聽濤聲，欣賞彩霞萬丈之景，令人心曠神怡。海岸礁岩長年經海水沖蝕，雕塑出奇特的造形，值得民眾深入觀賞體會。</p>
+                                                                        <div class=" row justify-content-between">
+                                                                                <small class="text-danger col-4 col-md-7">$ 590起</small>
+                                                                                <span class="align-items-end text-muted hoveritem  col-8 col-md-5">點擊查看詳情</span>
+                                                                        </div>
+                                                                </div>
+                                                        
+                                                        </a>
+                                                       
+                                                </div>
+                                                <div class="col-md-6 col-12">
+                                                        
+                                                        <a href="./world-product.html" class="hotproduct col-12  mt-5 ml-2 row barbar" style="text-decoration:none;">
+                                                                <div class=" col-4 imgtest mt-5"></div>
+                                                                
+                                                                <div class="col-8 mt-md-5 mt-3"> 
+                                                                        <h5 class="text-dark h4">外木山情人湖濱海大道</h5>
+                                                                        <p class=" text-muted ellipsis-small">外木山海岸為基隆市轄區僅存最長的天然海岸。自外木山漁港至澳底通村全長約5公里的海岸公路。一側為開闊的海岸景觀，一側為高聳的單面山懸崖，是極富壯麗景色的海岸線。在澳底漁村的沙灘是僅存的沙岸地型，小而美麗，夏日時成為民眾戲水游泳的好去處。夏季的日出是海岸不可多得的美景，坐在岸邊聆聽濤聲，欣賞彩霞萬丈之景，令人心曠神怡。海岸礁岩長年經海水沖蝕，雕塑出奇特的造形，值得民眾深入觀賞體會。</p>
+                                                                        <div class=" row justify-content-between">
+                                                                                <small class="text-danger col-4 col-md-7">$ 590起</small>
+                                                                                <span class="align-items-end text-muted hoveritem  col-8 col-md-5">點擊查看詳情</span>
+                                                                        </div>
+                                                                </div>
+                                                        
+                                                        </a>
+                                                       
+                                                </div>
+                                                <div class="col-md-6 col-12">
+                                                        
+                                                        <a href="./world-product.html" class="hotproduct col-12  mt-5 ml-2 row barbar" style="text-decoration:none;">
+                                                                <div class=" col-4 imgtest mt-5"></div>
+                                                                
+                                                                <div class="col-8 mt-md-5 mt-3"> 
+                                                                        <h5 class="text-dark h4">外木山情人湖濱海大道</h5>
+                                                                        <p class=" text-muted ellipsis-small">外木山海岸為基隆市轄區僅存最長的天然海岸。自外木山漁港至澳底通村全長約5公里的海岸公路。一側為開闊的海岸景觀，一側為高聳的單面山懸崖，是極富壯麗景色的海岸線。在澳底漁村的沙灘是僅存的沙岸地型，小而美麗，夏日時成為民眾戲水游泳的好去處。夏季的日出是海岸不可多得的美景，坐在岸邊聆聽濤聲，欣賞彩霞萬丈之景，令人心曠神怡。海岸礁岩長年經海水沖蝕，雕塑出奇特的造形，值得民眾深入觀賞體會。</p>
+                                                                        <div class=" row justify-content-between">
+                                                                                <small class="text-danger col-4 col-md-7">$ 590起</small>
+                                                                                <span class="align-items-end text-muted hoveritem  col-8 col-md-5">點擊查看詳情</span>
+                                                                        </div>
+                                                                </div>
+                                                        
+                                                        </a>
+                                                       
+                                                </div>
+                                                <div class="col-md-6 col-12">
+                                                        
+                                                        <a href="./world-product.html" class="hotproduct col-12  mt-5 ml-2 row barbar" style="text-decoration:none;">
+                                                                <div class=" col-4 imgtest mt-5"></div>
+                                                                
+                                                                <div class="col-8 mt-md-5 mt-3"> 
+                                                                        <h5 class="text-dark h4">外木山情人湖濱海大道</h5>
+                                                                        <p class=" text-muted ellipsis-small">外木山海岸為基隆市轄區僅存最長的天然海岸。自外木山漁港至澳底通村全長約5公里的海岸公路。一側為開闊的海岸景觀，一側為高聳的單面山懸崖，是極富壯麗景色的海岸線。在澳底漁村的沙灘是僅存的沙岸地型，小而美麗，夏日時成為民眾戲水游泳的好去處。夏季的日出是海岸不可多得的美景，坐在岸邊聆聽濤聲，欣賞彩霞萬丈之景，令人心曠神怡。海岸礁岩長年經海水沖蝕，雕塑出奇特的造形，值得民眾深入觀賞體會。</p>
+                                                                        <div class=" row justify-content-between">
+                                                                                <small class="text-danger col-4 col-md-7">$ 590起</small>
+                                                                                <span class="align-items-end text-muted hoveritem  col-8 col-md-5">點擊查看詳情</span>
+                                                                        </div>
+                                                                </div>
+                                                        
+                                                        </a>
+                                                       
+                                                </div>
+                                                <div class="col-md-6 col-12">
+                                                        
+                                                        <a href="./world-product.html" class="hotproduct col-12  mt-5 ml-2 row barbar" style="text-decoration:none;">
+                                                                <div class=" col-4 imgtest mt-5"></div>
+                                                                
+                                                                <div class="col-8 mt-md-5 mt-3"> 
+                                                                        <h5 class="text-dark h4">外木山情人湖濱海大道</h5>
+                                                                        <p class=" text-muted ellipsis-small">外木山海岸為基隆市轄區僅存最長的天然海岸。自外木山漁港至澳底通村全長約5公里的海岸公路。一側為開闊的海岸景觀，一側為高聳的單面山懸崖，是極富壯麗景色的海岸線。在澳底漁村的沙灘是僅存的沙岸地型，小而美麗，夏日時成為民眾戲水游泳的好去處。夏季的日出是海岸不可多得的美景，坐在岸邊聆聽濤聲，欣賞彩霞萬丈之景，令人心曠神怡。海岸礁岩長年經海水沖蝕，雕塑出奇特的造形，值得民眾深入觀賞體會。</p>
+                                                                        <div class=" row justify-content-between">
+                                                                                <small class="text-danger col-4 col-md-7">$ 590起</small>
+                                                                                <span class="align-items-end text-muted hoveritem  col-8 col-md-5">點擊查看詳情</span>
+                                                                        </div>
+                                                                </div>
+                                                        
+                                                        </a>
+                                                       
+                                                </div>
+                                                
+                                        </div>        
+
+                                                <!-- <div class="card mb-2 bar " style="max-width: 540px;">
+                                                                <div class="col-md-8 col-8">
+                                                                        <div class="card-body">
+                                                                                <h5 class="card-title text-dark h4">外木山情人湖濱海大道</h5>
+                                                                                <p class="card-text text-muted ellipsis-small">外木山海岸為基隆市轄區僅存最長的天然海岸。自外木山漁港至澳底通村全長約5公里的海岸公路。一側為開闊的海岸景觀，一側為高聳的單面山懸崖，是極富壯麗景色的海岸線。在澳底漁村的沙灘是僅存的沙岸地型，小而美麗，夏日時成為民眾戲水游泳的好去處。夏季的日出是海岸不可多得的美景，坐在岸邊聆聽濤聲，欣賞彩霞萬丈之景，令人心曠神怡。海岸礁岩長年經海水沖蝕，雕塑出奇特的造形，值得民眾深入觀賞體會。</p>
+                                                                                <div class="card-text row justify-content-between">
+                                                                                        <small class="text-danger col-6 col-md-8">$ 590起</small>
+                                                                                        <span class="align-items-end text-muted hoveritem  col-6 col-md-4">點擊查看詳情</span>
+                                                                                </div>
+                                                                                
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                </div> -->
+                                        
+                                        <!-- <a href="#" class="hotproduct col-12 col-md-6 mt-3 ">
+                                                <div class="card mb-2 bar " style="max-width: 540px;">
+                                                        <div class="row g-0 ">
+                                                                <div class="col-md-4 col-4 hotproductimgbar">
+                                                                        <img src="./images/north.jfif" alt="..." class="scaleproduct">
+                                                                </div>
+                                                                <div class="col-md-8 col-8">
+                                                                        <div class="card-body">
+                                                                                <h5 class="card-title text-dark h4">外木山情人湖濱海大道</h5>
+                                                                                <p class="card-text text-muted ellipsis-small">外木山海岸為基隆市轄區僅存最長的天然海岸。自外木山漁港至澳底通村全長約5公里的海岸公路。一側為開闊的海岸景觀，一側為高聳的單面山懸崖，是極富壯麗景色的海岸線。在澳底漁村的沙灘是僅存的沙岸地型，小而美麗，夏日時成為民眾戲水游泳的好去處。夏季的日出是海岸不可多得的美景，坐在岸邊聆聽濤聲，欣賞彩霞萬丈之景，令人心曠神怡。海岸礁岩長年經海水沖蝕，雕塑出奇特的造形，值得民眾深入觀賞體會。</p>
+                                                                                <div class="card-text row justify-content-between">
+                                                                                        <small class="text-danger col-6 col-md-8">$ 590起</small>
+                                                                                        <span class="align-items-end text-muted hoveritem  col-6 col-md-4">點擊查看詳情</span>
+                                                                                </div>
+                                                                                
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </a>
+                                        <a href="#" class="hotproduct col-12 col-md-6 mt-3 ">
+                                                <div class="card mb-2 bar " style="max-width: 540px;">
+                                                        <div class="row g-0 ">
+                                                                <div class="col-md-4 col-4 hotproductimgbar">
+                                                                        <img src="./images/north.jfif" alt="..." class="scaleproduct">
+                                                                </div>
+                                                                <div class="col-md-8 col-8">
+                                                                        <div class="card-body">
+                                                                                <h5 class="card-title text-dark h4">外木山情人湖濱海大道</h5>
+                                                                                <p class="card-text text-muted ellipsis-small">外木山海岸為基隆市轄區僅存最長的天然海岸。自外木山漁港至澳底通村全長約5公里的海岸公路。一側為開闊的海岸景觀，一側為高聳的單面山懸崖，是極富壯麗景色的海岸線。在澳底漁村的沙灘是僅存的沙岸地型，小而美麗，夏日時成為民眾戲水游泳的好去處。夏季的日出是海岸不可多得的美景，坐在岸邊聆聽濤聲，欣賞彩霞萬丈之景，令人心曠神怡。海岸礁岩長年經海水沖蝕，雕塑出奇特的造形，值得民眾深入觀賞體會。</p>
+                                                                                <div class="card-text row justify-content-between">
+                                                                                        <small class="text-danger col-6 col-md-8">$ 590起</small>
+                                                                                        <span class="align-items-end text-muted hoveritem  col-6 col-md-4">點擊查看詳情</span>
+                                                                                </div>
+                                                                                
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </a>
+                                         -->
+                                  
+                        </div>
+                        <img src="./images/taiwan.jpg" alt="before" class="img-background">
+                </div>
+                <div class="comparisonImage afterImage">
+                        <div class="col-12" >
+                                <h1 class="second-title">北部行程</h1>
+                                <div class="col-12 row">
+                                        <div class="col-md-6 col-12">
+                                                        
+                                                <a href="./world-product.html" class="hotproduct col-12  mt-5 ml-2 row barbar" style="text-decoration:none;">
+                                                        <div class=" col-4 imgtest mt-5"></div>
+                                                        
+                                                        <div class="col-8 mt-md-5 mt-3"> 
+                                                                <h5 class="text-dark h4">外木山情人湖濱海大道</h5>
+                                                                <p class=" text-muted ellipsis-small">外木山海岸為基隆市轄區僅存最長的天然海岸。自外木山漁港至澳底通村全長約5公里的海岸公路。一側為開闊的海岸景觀，一側為高聳的單面山懸崖，是極富壯麗景色的海岸線。在澳底漁村的沙灘是僅存的沙岸地型，小而美麗，夏日時成為民眾戲水游泳的好去處。夏季的日出是海岸不可多得的美景，坐在岸邊聆聽濤聲，欣賞彩霞萬丈之景，令人心曠神怡。海岸礁岩長年經海水沖蝕，雕塑出奇特的造形，值得民眾深入觀賞體會。</p>
+                                                                <div class=" row justify-content-between">
+                                                                        <small class="text-danger col-4 col-md-7">$ 590起</small>
+                                                                        <span class="align-items-end text-muted hoveritem  col-8 col-md-5">點擊查看詳情</span>
+                                                                </div>
+                                                        </div>
+                                                
+                                                </a>
+                                               
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                                        
+                                                <a href="./world-product.html" class="hotproduct col-12  mt-5 ml-2 row barbar" style="text-decoration:none;">
+                                                        <div class=" col-4 imgtest mt-5"></div>
+                                                        
+                                                        <div class="col-8 mt-md-5 mt-3"> 
+                                                                <h5 class="text-dark h4">外木山情人湖濱海大道</h5>
+                                                                <p class=" text-muted ellipsis-small">外木山海岸為基隆市轄區僅存最長的天然海岸。自外木山漁港至澳底通村全長約5公里的海岸公路。一側為開闊的海岸景觀，一側為高聳的單面山懸崖，是極富壯麗景色的海岸線。在澳底漁村的沙灘是僅存的沙岸地型，小而美麗，夏日時成為民眾戲水游泳的好去處。夏季的日出是海岸不可多得的美景，坐在岸邊聆聽濤聲，欣賞彩霞萬丈之景，令人心曠神怡。海岸礁岩長年經海水沖蝕，雕塑出奇特的造形，值得民眾深入觀賞體會。</p>
+                                                                <div class=" row justify-content-between">
+                                                                        <small class="text-danger col-4 col-md-7">$ 590起</small>
+                                                                        <span class="align-items-end text-muted hoveritem  col-8 col-md-5">點擊查看詳情</span>
+                                                                </div>
+                                                        </div>
+                                                
+                                                </a>
+                                               
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                                        
+                                                <a href="./world-product.html" class="hotproduct col-12  mt-5 ml-2 row barbar" style="text-decoration:none;">
+                                                        <div class=" col-4 imgtest mt-5"></div>
+                                                        
+                                                        <div class="col-8 mt-md-5 mt-3"> 
+                                                                <h5 class="text-dark h4">外木山情人湖濱海大道</h5>
+                                                                <p class=" text-muted ellipsis-small">外木山海岸為基隆市轄區僅存最長的天然海岸。自外木山漁港至澳底通村全長約5公里的海岸公路。一側為開闊的海岸景觀，一側為高聳的單面山懸崖，是極富壯麗景色的海岸線。在澳底漁村的沙灘是僅存的沙岸地型，小而美麗，夏日時成為民眾戲水游泳的好去處。夏季的日出是海岸不可多得的美景，坐在岸邊聆聽濤聲，欣賞彩霞萬丈之景，令人心曠神怡。海岸礁岩長年經海水沖蝕，雕塑出奇特的造形，值得民眾深入觀賞體會。</p>
+                                                                <div class=" row justify-content-between">
+                                                                        <small class="text-danger col-4 col-md-7">$ 590起</small>
+                                                                        <span class="align-items-end text-muted hoveritem  col-8 col-md-5">點擊查看詳情</span>
+                                                                </div>
+                                                        </div>
+                                                
+                                                </a>
+                                               
+                                        </div>
+
+                                        
+                                        
+                                </div>        
+                        </div>
+                        <img src="./images/taiwan1.jfif" alt="after" class="img-background">
+                </div>
+                <div class="comparisonImage afterImage2">
+                        <div class="col-12  " >
+                                <h1 class="second-title">中部行程</h1>
+                                <div class="col-12 row">
+                                        <div class="col-md-6 col-12">
+                                                        
+                                                <a href="./world-product.html" class="hotproduct col-12  mt-5 ml-2 row barbar" style="text-decoration:none;">
+                                                        <div class=" col-4 imgtest mt-5"></div>
+                                                        
+                                                        <div class="col-8 mt-md-5 mt-3"> 
+                                                                <h5 class="text-dark h4">外木山情人湖濱海大道</h5>
+                                                                <p class=" text-muted ellipsis-small">外木山海岸為基隆市轄區僅存最長的天然海岸。自外木山漁港至澳底通村全長約5公里的海岸公路。一側為開闊的海岸景觀，一側為高聳的單面山懸崖，是極富壯麗景色的海岸線。在澳底漁村的沙灘是僅存的沙岸地型，小而美麗，夏日時成為民眾戲水游泳的好去處。夏季的日出是海岸不可多得的美景，坐在岸邊聆聽濤聲，欣賞彩霞萬丈之景，令人心曠神怡。海岸礁岩長年經海水沖蝕，雕塑出奇特的造形，值得民眾深入觀賞體會。</p>
+                                                                <div class=" row justify-content-between">
+                                                                        <small class="text-danger col-4 col-md-7">$ 590起</small>
+                                                                        <span class="align-items-end text-muted hoveritem  col-8 col-md-5">點擊查看詳情</span>
+                                                                </div>
+                                                        </div>
+                                                
+                                                </a>
+                                               
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                                        
+                                                <a href="./world-product.html" class="hotproduct col-12  mt-5 ml-2 row barbar" style="text-decoration:none;">
+                                                        <div class=" col-4 imgtest mt-5"></div>
+                                                        
+                                                        <div class="col-8 mt-md-5 mt-3"> 
+                                                                <h5 class="text-dark h4">外木山情人湖濱海大道</h5>
+                                                                <p class=" text-muted ellipsis-small">外木山海岸為基隆市轄區僅存最長的天然海岸。自外木山漁港至澳底通村全長約5公里的海岸公路。一側為開闊的海岸景觀，一側為高聳的單面山懸崖，是極富壯麗景色的海岸線。在澳底漁村的沙灘是僅存的沙岸地型，小而美麗，夏日時成為民眾戲水游泳的好去處。夏季的日出是海岸不可多得的美景，坐在岸邊聆聽濤聲，欣賞彩霞萬丈之景，令人心曠神怡。海岸礁岩長年經海水沖蝕，雕塑出奇特的造形，值得民眾深入觀賞體會。</p>
+                                                                <div class=" row justify-content-between">
+                                                                        <small class="text-danger col-4 col-md-7">$ 590起</small>
+                                                                        <span class="align-items-end text-muted hoveritem  col-8 col-md-5">點擊查看詳情</span>
+                                                                </div>
+                                                        </div>
+                                                
+                                                </a>
+                                               
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                                        
+                                                <a href="./world-product.html" class="hotproduct col-12  mt-5 ml-2 row barbar" style="text-decoration:none;">
+                                                        <div class=" col-4 imgtest mt-5"></div>
+                                                        
+                                                        <div class="col-8 mt-md-5 mt-3"> 
+                                                                <h5 class="text-dark h4">外木山情人湖濱海大道</h5>
+                                                                <p class=" text-muted ellipsis-small">外木山海岸為基隆市轄區僅存最長的天然海岸。自外木山漁港至澳底通村全長約5公里的海岸公路。一側為開闊的海岸景觀，一側為高聳的單面山懸崖，是極富壯麗景色的海岸線。在澳底漁村的沙灘是僅存的沙岸地型，小而美麗，夏日時成為民眾戲水游泳的好去處。夏季的日出是海岸不可多得的美景，坐在岸邊聆聽濤聲，欣賞彩霞萬丈之景，令人心曠神怡。海岸礁岩長年經海水沖蝕，雕塑出奇特的造形，值得民眾深入觀賞體會。</p>
+                                                                <div class=" row justify-content-between">
+                                                                        <small class="text-danger col-4 col-md-7">$ 590起</small>
+                                                                        <span class="align-items-end text-muted hoveritem  col-8 col-md-5">點擊查看詳情</span>
+                                                                </div>
+                                                        </div>
+                                                
+                                                </a>
+                                               
+                                        </div>
+
+                                        
+                                        
+                                </div>        
+                        </div>
+                        <img src="./images/taiwan2.jfif" alt="after" class="img-background">
+                </div>
+
+                
+
+                <div class="comparisonImage afterImage3">
+                        <div class="col-12  " >
+                                <h1 class="second-title">南部行程</h1>
+                                <div class="col-12 row">
+                                        <div class="col-md-6 col-12">
+                                                        
+                                                <a href="./world-product.html" class="hotproduct col-12  mt-5 ml-2 row barbar" style="text-decoration:none;">
+                                                        <div class=" col-4 imgtest mt-5"></div>
+                                                        
+                                                        <div class="col-8 mt-md-5 mt-3"> 
+                                                                <h5 class="text-dark h4">外木山情人湖濱海大道</h5>
+                                                                <p class=" text-muted ellipsis-small">外木山海岸為基隆市轄區僅存最長的天然海岸。自外木山漁港至澳底通村全長約5公里的海岸公路。一側為開闊的海岸景觀，一側為高聳的單面山懸崖，是極富壯麗景色的海岸線。在澳底漁村的沙灘是僅存的沙岸地型，小而美麗，夏日時成為民眾戲水游泳的好去處。夏季的日出是海岸不可多得的美景，坐在岸邊聆聽濤聲，欣賞彩霞萬丈之景，令人心曠神怡。海岸礁岩長年經海水沖蝕，雕塑出奇特的造形，值得民眾深入觀賞體會。</p>
+                                                                <div class=" row justify-content-between">
+                                                                        <small class="text-danger col-4 col-md-7">$ 590起</small>
+                                                                        <span class="align-items-end text-muted hoveritem  col-8 col-md-5">點擊查看詳情</span>
+                                                                </div>
+                                                        </div>
+                                                
+                                                </a>
+                                               
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                                        
+                                                <a href="./world-product.html" class="hotproduct col-12  mt-5 ml-2 row barbar" style="text-decoration:none;">
+                                                        <div class=" col-4 imgtest mt-5"></div>
+                                                        
+                                                        <div class="col-8 mt-md-5 mt-3"> 
+                                                                <h5 class="text-dark h4">外木山情人湖濱海大道</h5>
+                                                                <p class=" text-muted ellipsis-small">外木山海岸為基隆市轄區僅存最長的天然海岸。自外木山漁港至澳底通村全長約5公里的海岸公路。一側為開闊的海岸景觀，一側為高聳的單面山懸崖，是極富壯麗景色的海岸線。在澳底漁村的沙灘是僅存的沙岸地型，小而美麗，夏日時成為民眾戲水游泳的好去處。夏季的日出是海岸不可多得的美景，坐在岸邊聆聽濤聲，欣賞彩霞萬丈之景，令人心曠神怡。海岸礁岩長年經海水沖蝕，雕塑出奇特的造形，值得民眾深入觀賞體會。</p>
+                                                                <div class=" row justify-content-between">
+                                                                        <small class="text-danger col-4 col-md-7">$ 590起</small>
+                                                                        <span class="align-items-end text-muted hoveritem  col-8 col-md-5">點擊查看詳情</span>
+                                                                </div>
+                                                        </div>
+                                                
+                                                </a>
+                                               
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                                        
+                                                <a href="./world-product.html" class="hotproduct col-12  mt-5 ml-2 row barbar" style="text-decoration:none;">
+                                                        <div class=" col-4 imgtest mt-5"></div>
+                                                        
+                                                        <div class="col-8 mt-md-5 mt-3"> 
+                                                                <h5 class="text-dark h4">外木山情人湖濱海大道</h5>
+                                                                <p class=" text-muted ellipsis-small">外木山海岸為基隆市轄區僅存最長的天然海岸。自外木山漁港至澳底通村全長約5公里的海岸公路。一側為開闊的海岸景觀，一側為高聳的單面山懸崖，是極富壯麗景色的海岸線。在澳底漁村的沙灘是僅存的沙岸地型，小而美麗，夏日時成為民眾戲水游泳的好去處。夏季的日出是海岸不可多得的美景，坐在岸邊聆聽濤聲，欣賞彩霞萬丈之景，令人心曠神怡。海岸礁岩長年經海水沖蝕，雕塑出奇特的造形，值得民眾深入觀賞體會。</p>
+                                                                <div class=" row justify-content-between">
+                                                                        <small class="text-danger col-4 col-md-7">$ 590起</small>
+                                                                        <span class="align-items-end text-muted hoveritem  col-8 col-md-5">點擊查看詳情</span>
+                                                                </div>
+                                                        </div>
+                                                
+                                                </a>
+                                               
+                                        </div>
+
+                                        
+                                        
+                                </div>   
+                                        
+                        </div>
+                        <img src="./images/taiwan3.jfif" alt="after" class="img-background">
+                </div> 
+                
+                <div class="comparisonImage afterImage4">
+                        <div class="col-12 " >
+                                <h1 class="second-title">東部行程</h1>
+                                <div class="col-12 row">
+                                        <div class="col-md-6 col-12">
+                                                        
+                                                <a href="./world-product.html" class="hotproduct col-12  mt-5 ml-2 row barbar" style="text-decoration:none;">
+                                                        <div class=" col-4 imgtest mt-5"></div>
+                                                        
+                                                        <div class="col-8 mt-md-5 mt-3"> 
+                                                                <h5 class="text-dark h4">外木山情人湖濱海大道</h5>
+                                                                <p class=" text-muted ellipsis-small">外木山海岸為基隆市轄區僅存最長的天然海岸。自外木山漁港至澳底通村全長約5公里的海岸公路。一側為開闊的海岸景觀，一側為高聳的單面山懸崖，是極富壯麗景色的海岸線。在澳底漁村的沙灘是僅存的沙岸地型，小而美麗，夏日時成為民眾戲水游泳的好去處。夏季的日出是海岸不可多得的美景，坐在岸邊聆聽濤聲，欣賞彩霞萬丈之景，令人心曠神怡。海岸礁岩長年經海水沖蝕，雕塑出奇特的造形，值得民眾深入觀賞體會。</p>
+                                                                <div class=" row justify-content-between">
+                                                                        <small class="text-danger col-4 col-md-7">$ 590起</small>
+                                                                        <span class="align-items-end text-muted hoveritem  col-8 col-md-5">點擊查看詳情</span>
+                                                                </div>
+                                                        </div>
+                                                
+                                                </a>
+                                               
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                                        
+                                                <a href="./world-product.html" class="hotproduct col-12  mt-5 ml-2 row barbar" style="text-decoration:none;">
+                                                        <div class=" col-4 imgtest mt-5"></div>
+                                                        
+                                                        <div class="col-8 mt-md-5 mt-3"> 
+                                                                <h5 class="text-dark h4">外木山情人湖濱海大道</h5>
+                                                                <p class=" text-muted ellipsis-small">外木山海岸為基隆市轄區僅存最長的天然海岸。自外木山漁港至澳底通村全長約5公里的海岸公路。一側為開闊的海岸景觀，一側為高聳的單面山懸崖，是極富壯麗景色的海岸線。在澳底漁村的沙灘是僅存的沙岸地型，小而美麗，夏日時成為民眾戲水游泳的好去處。夏季的日出是海岸不可多得的美景，坐在岸邊聆聽濤聲，欣賞彩霞萬丈之景，令人心曠神怡。海岸礁岩長年經海水沖蝕，雕塑出奇特的造形，值得民眾深入觀賞體會。</p>
+                                                                <div class=" row justify-content-between">
+                                                                        <small class="text-danger col-4 col-md-7">$ 590起</small>
+                                                                        <span class="align-items-end text-muted hoveritem  col-8 col-md-5">點擊查看詳情</span>
+                                                                </div>
+                                                        </div>
+                                                
+                                                </a>
+                                               
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                                        
+                                                <a href="./world-product.html" class="hotproduct col-12  mt-5 ml-2 row barbar" style="text-decoration:none;">
+                                                        <div class=" col-4 imgtest mt-5"></div>
+                                                        
+                                                        <div class="col-8 mt-md-5 mt-3"> 
+                                                                <h5 class="text-dark h4">外木山情人湖濱海大道</h5>
+                                                                <p class=" text-muted ellipsis-small">外木山海岸為基隆市轄區僅存最長的天然海岸。自外木山漁港至澳底通村全長約5公里的海岸公路。一側為開闊的海岸景觀，一側為高聳的單面山懸崖，是極富壯麗景色的海岸線。在澳底漁村的沙灘是僅存的沙岸地型，小而美麗，夏日時成為民眾戲水游泳的好去處。夏季的日出是海岸不可多得的美景，坐在岸邊聆聽濤聲，欣賞彩霞萬丈之景，令人心曠神怡。海岸礁岩長年經海水沖蝕，雕塑出奇特的造形，值得民眾深入觀賞體會。</p>
+                                                                <div class=" row justify-content-between">
+                                                                        <small class="text-danger col-4 col-md-7">$ 590起</small>
+                                                                        <span class="align-items-end text-muted hoveritem  col-8 col-md-5">點擊查看詳情</span>
+                                                                </div>
+                                                        </div>
+                                                
+                                                </a>
+                                               
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                                        
+                                                <a href="./world-product.html" class="hotproduct col-12  mt-5 ml-2 row barbar" style="text-decoration:none;">
+                                                        <div class=" col-4 imgtest mt-5"></div>
+                                                        
+                                                        <div class="col-8 mt-md-5 mt-3"> 
+                                                                <h5 class="text-dark h4">外木山情人湖濱海大道</h5>
+                                                                <p class=" text-muted ellipsis-small">外木山海岸為基隆市轄區僅存最長的天然海岸。自外木山漁港至澳底通村全長約5公里的海岸公路。一側為開闊的海岸景觀，一側為高聳的單面山懸崖，是極富壯麗景色的海岸線。在澳底漁村的沙灘是僅存的沙岸地型，小而美麗，夏日時成為民眾戲水游泳的好去處。夏季的日出是海岸不可多得的美景，坐在岸邊聆聽濤聲，欣賞彩霞萬丈之景，令人心曠神怡。海岸礁岩長年經海水沖蝕，雕塑出奇特的造形，值得民眾深入觀賞體會。</p>
+                                                                <div class=" row justify-content-between">
+                                                                        <small class="text-danger col-4 col-md-7">$ 590起</small>
+                                                                        <span class="align-items-end text-muted hoveritem  col-8 col-md-5">點擊查看詳情</span>
+                                                                </div>
+                                                        </div>
+                                                
+                                                </a>
+                                               
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                                        
+                                                <a href="./world-product.html" class="hotproduct col-12  mt-5 ml-2 row barbar" style="text-decoration:none;">
+                                                        <div class=" col-4 imgtest mt-5"></div>
+                                                        
+                                                        <div class="col-8 mt-md-5 mt-3"> 
+                                                                <h5 class="text-dark h4">外木山情人湖濱海大道</h5>
+                                                                <p class=" text-muted ellipsis-small">外木山海岸為基隆市轄區僅存最長的天然海岸。自外木山漁港至澳底通村全長約5公里的海岸公路。一側為開闊的海岸景觀，一側為高聳的單面山懸崖，是極富壯麗景色的海岸線。在澳底漁村的沙灘是僅存的沙岸地型，小而美麗，夏日時成為民眾戲水游泳的好去處。夏季的日出是海岸不可多得的美景，坐在岸邊聆聽濤聲，欣賞彩霞萬丈之景，令人心曠神怡。海岸礁岩長年經海水沖蝕，雕塑出奇特的造形，值得民眾深入觀賞體會。</p>
+                                                                <div class=" row justify-content-between">
+                                                                        <small class="text-danger col-4 col-md-7">$ 590起</small>
+                                                                        <span class="align-items-end text-muted hoveritem  col-8 col-md-5">點擊查看詳情</span>
+                                                                </div>
+                                                        </div>
+                                                
+                                                </a>
+                                               
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                                        
+                                                <a href="./world-product.html" class="hotproduct col-12  mt-5 ml-2 row barbar" style="text-decoration:none;">
+                                                        <div class=" col-4 imgtest mt-5"></div>
+                                                        
+                                                        <div class="col-8 mt-md-5 mt-3"> 
+                                                                <h5 class="text-dark h4">外木山情人湖濱海大道</h5>
+                                                                <p class=" text-muted ellipsis-small">外木山海岸為基隆市轄區僅存最長的天然海岸。自外木山漁港至澳底通村全長約5公里的海岸公路。一側為開闊的海岸景觀，一側為高聳的單面山懸崖，是極富壯麗景色的海岸線。在澳底漁村的沙灘是僅存的沙岸地型，小而美麗，夏日時成為民眾戲水游泳的好去處。夏季的日出是海岸不可多得的美景，坐在岸邊聆聽濤聲，欣賞彩霞萬丈之景，令人心曠神怡。海岸礁岩長年經海水沖蝕，雕塑出奇特的造形，值得民眾深入觀賞體會。</p>
+                                                                <div class=" row justify-content-between">
+                                                                        <small class="text-danger col-4 col-md-7">$ 590起</small>
+                                                                        <span class="align-items-end text-muted hoveritem  col-8 col-md-5">點擊查看詳情</span>
+                                                                </div>
+                                                        </div>
+                                                
+                                                </a>
+                                               
+                                        </div>
+                                        
+                                        
+                                </div>   
+                               
+                                
+                        </div>
+                        <img src="./images/taiwan4.jfif" alt="after" class="img-background">
+                </div>
+                </section>
+                
+                <div class="row">
+                        <div class="col-12 offset-md-1 col-md-10 bg-color  golden-title text-center mt-5" id="north">
+                        <img class="mt-5" src="./images/side-line.png" alt="" class="img-fluid">
+                               
+                </div>
+        </div>  
+                        <div class="contain-fluid">
+                                <div class="northbar">
+                                        <div class="viewtitle">北部行程</div> 
+                                        
+                                         
+                                </div>
+                                <div class="row ">
+                                        <div class="col-12 offset-md-1 col-md-10 bg-color text-center  ">
+                                          <div class="swiper-container1 ">
+                                            <div class="swiper-wrapper">
+                                              <div class="col-md-4 col-6 wow fadeInUp swiper-slide slide" data-swiper-autoplay='800' data-wow-delay="0.5s" id="product1">
+                                                <div class="card-title golden-large"> 隱密奢華熱帶天堂-巴哇私島1
+                                                  <img  class='card-img-top' src="./images/ontop3.jpg" alt="batam" class="img-fluid">
+                                                    <p class="card-text ellipsis-small">Bawah Reserve 位於印尼廖內省的阿南巴斯群島（Anambas Islands），其環境毫無污染、原始氣息濃厚，距離新加坡僅僅 3 小時航程。要造訪這小島，旅客只須先抵達新加坡，由度假村先派遣轎車送您前往新加坡當地碼頭Tanah Merah，以專屬快艇前往巴淡島（Batam Island），轉乘至巴淡島機場以尊榮 VIP 服務入境後，隨即搭乘私人水上飛機抵達目的地。</p>
+                                                    <a href="world-product.html" class="card-link mb-5 text-white " >查看詳請</a>   
+                                  
+                                                </div>
+                                  
+                                              </div>
+                                              <div class="col-md-4 col-6 wow fadeInUp swiper-slide slide"  data-wow-delay="0.5s" id="product2">
+                                                <div class="card-title golden-large"> 隱密奢華熱帶天堂-巴哇私島2
+                                                  <img  class='card-img-top' src="./images/ontop4.jpg" alt="batam" class="img-fluid">
+                                                    <p class="card-text ellipsis-small">Bawah Reserve 位於印尼廖內省的阿南巴斯群島（Anambas Islands），其環境毫無污染、原始氣息濃厚，距離新加坡僅僅 3 小時航程。要造訪這小島，旅客只須先抵達新加坡，由度假村先派遣轎車送您前往新加坡當地碼頭Tanah Merah，以專屬快艇前往巴淡島（Batam Island），轉乘至巴淡島機場以尊榮 VIP 服務入境後，隨即搭乘私人水上飛機抵達目的地。</p>
+                                                    <a href="world-product.html" class="card-link text-white " >查看詳請</a>   
+                                  
+                                                </div>
+                                  
+                                              </div>
+                                              <div class="col-md-4 col-6 wow fadeInUp swiper-slide slide" data-wow-delay="0.5s" id="product3">
+                                                <div class="card-title golden-large"> 隱密奢華熱帶天堂-巴哇私島3
+                                                  <img  class='card-img-top' src="./images/ontop5.jpg" alt="batam" class="img-fluid">
+                                                    <p class="card-text ellipsis-small">Bawah Reserve 位於印尼廖內省的阿南巴斯群島（Anambas Islands），其環境毫無污染、原始氣息濃厚，距離新加坡僅僅 3 小時航程。要造訪這小島，旅客只須先抵達新加坡，由度假村先派遣轎車送您前往新加坡當地碼頭Tanah Merah，以專屬快艇前往巴淡島（Batam Island），轉乘至巴淡島機場以尊榮 VIP 服務入境後，隨即搭乘私人水上飛機抵達目的地。</p>
+                                                    <a href="world-product.html" class="card-link mb-5 text-white" >查看詳請</a>   
+                                  
+                                                </div>
+                                  
+                                              </div>
+                                              <div class="col-md-4 col-6 wow fadeInUp swiper-slide slide" data-wow-delay="0.5s" id="product4">
+                                                <div class="card-title golden-large"> 隱密奢華熱帶天堂-巴哇私島4
+                                                  <img  class='card-img-top' src="./images/ontop6.jpg" alt="batam" class="img-fluid">
+                                                    <p class="card-text ellipsis-small">Bawah Reserve 位於印尼廖內省的阿南巴斯群島（Anambas Islands），其環境毫無污染、原始氣息濃厚，距離新加坡僅僅 3 小時航程。要造訪這小島，旅客只須先抵達新加坡，由度假村先派遣轎車送您前往新加坡當地碼頭Tanah Merah，以專屬快艇前往巴淡島（Batam Island），轉乘至巴淡島機場以尊榮 VIP 服務入境後，隨即搭乘私人水上飛機抵達目的地。</p>
+                                                    <a href="world-product.html" class="card-link mb-5 text-white" >查看詳請</a>   
+                                  
+                                                </div>
+                                  
+                                              </div>
+                                              <div class="col-md-4 col-6 wow fadeInUp swiper-slide slide" data-wow-delay="0.5s"  id="product5">
+                                                <div class="card-title golden-large"> 隱密奢華熱帶天堂-巴哇私島5
+                                                  <img  class='card-img-top' src="./images/ontop7.jpg" alt="batam" class="img-fluid">
+                                                    <p class="card-text ellipsis-small">Bawah Reserve 位於印尼廖內省的阿南巴斯群島（Anambas Islands），其環境毫無污染、原始氣息濃厚，距離新加坡僅僅 3 小時航程。要造訪這小島，旅客只須先抵達新加坡，由度假村先派遣轎車送您前往新加坡當地碼頭Tanah Merah，以專屬快艇前往巴淡島（Batam Island），轉乘至巴淡島機場以尊榮 VIP 服務入境後，隨即搭乘私人水上飛機抵達目的地。</p>
+                                                    <a href="world-product.html" class="card-link mb-5 text-white" >查看詳請</a>   
+                                  
+                                                </div>
+                                  
+                                              </div>
+                                              <div class="col-md-4 col-6 wow fadeInUp swiper-slide1 slide" data-wow-delay="0.5s" id="product6">
+                                                <div class="card-title golden-large"> 隱密奢華熱帶天堂-巴哇私島6
+                                                  <img  class='card-img-top' src="./images/ontop8.jpg" alt="batam" class="img-fluid">
+                                                    <p class="card-text ellipsis-small">Bawah Reserve 位於印尼廖內省的阿南巴斯群島（Anambas Islands），其環境毫無污染、原始氣息濃厚，距離新加坡僅僅 3 小時航程。要造訪這小島，旅客只須先抵達新加坡，由度假村先派遣轎車送您前往新加坡當地碼頭Tanah Merah，以專屬快艇前往巴淡島（Batam Island），轉乘至巴淡島機場以尊榮 VIP 服務入境後，隨即搭乘私人水上飛機抵達目的地。</p>
+                                                    <a href="world-product.html" class="card-link mb-5 text-white" >查看詳請</a>   
+                                  
+                                                </div>
+                                  
+                                              </div>
+                                             
+                                  
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+
+
+                                  
+                                
+                        </div>
+
+                        <div class="contain-fluid">
+                                <div class="northbar1">
+                                        <div class="viewtitle1" id="central">中部行程</div> 
+                                        
+                                         
+                                </div>
+                                <div class="row ">
+                                        <div class="col-12 offset-md-1 col-md-10 bg-color text-center  ">
+                                          <div class="swiper-container1 ">
+                                            <div class="swiper-wrapper">
+                                              <div class="col-md-4 col-6 wow fadeInUp swiper-slide slide" data-swiper-autoplay='800' data-wow-delay="0.5s" id="product1">
+                                                <div class="card-title golden-large"> 隱密奢華熱帶天堂-巴哇私島1
+                                                  <img  class='card-img-top' src="./images/ontop3.jpg" alt="batam" class="img-fluid">
+                                                    <p class="card-text ellipsis-small">Bawah Reserve 位於印尼廖內省的阿南巴斯群島（Anambas Islands），其環境毫無污染、原始氣息濃厚，距離新加坡僅僅 3 小時航程。要造訪這小島，旅客只須先抵達新加坡，由度假村先派遣轎車送您前往新加坡當地碼頭Tanah Merah，以專屬快艇前往巴淡島（Batam Island），轉乘至巴淡島機場以尊榮 VIP 服務入境後，隨即搭乘私人水上飛機抵達目的地。</p>
+                                                    <a href="world-product.html" class="card-link mb-5 text-white " >查看詳請</a>   
+                                  
+                                                </div>
+                                  
+                                              </div>
+                                              <div class="col-md-4 col-6 wow fadeInUp swiper-slide slide"  data-wow-delay="0.5s" id="product2">
+                                                <div class="card-title golden-large"> 隱密奢華熱帶天堂-巴哇私島2
+                                                  <img  class='card-img-top' src="./images/ontop4.jpg" alt="batam" class="img-fluid">
+                                                    <p class="card-text ellipsis-small">Bawah Reserve 位於印尼廖內省的阿南巴斯群島（Anambas Islands），其環境毫無污染、原始氣息濃厚，距離新加坡僅僅 3 小時航程。要造訪這小島，旅客只須先抵達新加坡，由度假村先派遣轎車送您前往新加坡當地碼頭Tanah Merah，以專屬快艇前往巴淡島（Batam Island），轉乘至巴淡島機場以尊榮 VIP 服務入境後，隨即搭乘私人水上飛機抵達目的地。</p>
+                                                    <a href="world-product.html" class="card-link text-white " >查看詳請</a>   
+                                  
+                                                </div>
+                                  
+                                              </div>
+                                              <div class="col-md-4 col-6 wow fadeInUp swiper-slide slide" data-wow-delay="0.5s" id="product3">
+                                                <div class="card-title golden-large"> 隱密奢華熱帶天堂-巴哇私島3
+                                                  <img  class='card-img-top' src="./images/ontop5.jpg" alt="batam" class="img-fluid">
+                                                    <p class="card-text ellipsis-small">Bawah Reserve 位於印尼廖內省的阿南巴斯群島（Anambas Islands），其環境毫無污染、原始氣息濃厚，距離新加坡僅僅 3 小時航程。要造訪這小島，旅客只須先抵達新加坡，由度假村先派遣轎車送您前往新加坡當地碼頭Tanah Merah，以專屬快艇前往巴淡島（Batam Island），轉乘至巴淡島機場以尊榮 VIP 服務入境後，隨即搭乘私人水上飛機抵達目的地。</p>
+                                                    <a href="world-product.html" class="card-link mb-5 text-white" >查看詳請</a>   
+                                  
+                                                </div>
+                                  
+                                              </div>
+                                              <div class="col-md-4 col-6 wow fadeInUp swiper-slide slide" data-wow-delay="0.5s" id="product4">
+                                                <div class="card-title golden-large"> 隱密奢華熱帶天堂-巴哇私島4
+                                                  <img  class='card-img-top' src="./images/ontop6.jpg" alt="batam" class="img-fluid">
+                                                    <p class="card-text ellipsis-small">Bawah Reserve 位於印尼廖內省的阿南巴斯群島（Anambas Islands），其環境毫無污染、原始氣息濃厚，距離新加坡僅僅 3 小時航程。要造訪這小島，旅客只須先抵達新加坡，由度假村先派遣轎車送您前往新加坡當地碼頭Tanah Merah，以專屬快艇前往巴淡島（Batam Island），轉乘至巴淡島機場以尊榮 VIP 服務入境後，隨即搭乘私人水上飛機抵達目的地。</p>
+                                                    <a href="world-product.html" class="card-link mb-5 text-white" >查看詳請</a>   
+                                  
+                                                </div>
+                                  
+                                              </div>
+                                              <div class="col-md-4 col-6 wow fadeInUp swiper-slide slide" data-wow-delay="0.5s"  id="product5">
+                                                <div class="card-title golden-large"> 隱密奢華熱帶天堂-巴哇私島5
+                                                  <img  class='card-img-top' src="./images/ontop7.jpg" alt="batam" class="img-fluid">
+                                                    <p class="card-text ellipsis-small">Bawah Reserve 位於印尼廖內省的阿南巴斯群島（Anambas Islands），其環境毫無污染、原始氣息濃厚，距離新加坡僅僅 3 小時航程。要造訪這小島，旅客只須先抵達新加坡，由度假村先派遣轎車送您前往新加坡當地碼頭Tanah Merah，以專屬快艇前往巴淡島（Batam Island），轉乘至巴淡島機場以尊榮 VIP 服務入境後，隨即搭乘私人水上飛機抵達目的地。</p>
+                                                    <a href="world-product.html" class="card-link mb-5 text-white" >查看詳請</a>   
+                                  
+                                                </div>
+                                  
+                                              </div>
+                                              <div class="col-md-4 col-6 wow fadeInUp swiper-slide1 slide" data-wow-delay="0.5s" id="product6">
+                                                <div class="card-title golden-large"> 隱密奢華熱帶天堂-巴哇私島6
+                                                  <img  class='card-img-top' src="./images/ontop8.jpg" alt="batam" class="img-fluid">
+                                                    <p class="card-text ellipsis-small">Bawah Reserve 位於印尼廖內省的阿南巴斯群島（Anambas Islands），其環境毫無污染、原始氣息濃厚，距離新加坡僅僅 3 小時航程。要造訪這小島，旅客只須先抵達新加坡，由度假村先派遣轎車送您前往新加坡當地碼頭Tanah Merah，以專屬快艇前往巴淡島（Batam Island），轉乘至巴淡島機場以尊榮 VIP 服務入境後，隨即搭乘私人水上飛機抵達目的地。</p>
+                                                    <a href="world-product.html" class="card-link mb-5 text-white" >查看詳請</a>   
+                                  
+                                                </div>
+                                  
+                                              </div>
+                                             
+                                  
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                      
+                                  
+                                
+                        </div>
+
+                        
+<!-- 
+                        <div class="h-100">
+                                <img src="./images/taiwan2.jpg" alt="">
+                        </div>
+                        <div class="h-100">
+                                <img src="./images/taiwan3.jpg" alt="">
+                        </div> -->
+                        
+
+                     
+
+
+                  
+
+ 
+
+
+
+
+        
+                <div class="row mt-5 "> 
+                        <div class="col-12 bg-color fa-2x text-center">
+                        <i class="fab fa-twitter  socialIcon " ></i>
+                        <i class="fab fa-facebook-f  socialIcon"></i>
+                        <i class="fab fa-instagram  socialIcon"></i>
+                        <i class="fab fa-vimeo  socialIcon"></i>
+                        <i class="fab fa-youtube  socialIcon"></i>
+                        <p class='text-white'>&copy;Allright design by Ruby</p>
+                      
+                        
+                
+                </div>
+       
+        </div>
+    
+    
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <!-- ADD Jquery Video Background -->
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+  
+
+</body>
+</html>

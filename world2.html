@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html class="no-js"> <!--<![endif]-->
+
+
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>高定-旅遊</title>
+  <meta name="keywords" content="background, video, jquery, plugin, javascript, css, 360, youtube">
+  <meta  name="description" content="Create fullscreen youtube background videos with this jquery plugin.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+   <!--字體  -->
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+  <!-- 動畫 -->
+  <link rel="stylesheet" href="./src/animate.css">
+  
+  <script src="./src/wow.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  
+  <!-- 圖片 -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" >
+  
+  <!-- Twitter Boostrap for Demo -->
+  <link rel="stylesheet" href="http:////maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <!-- ADD Jquery Video Background -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+  <!-- styles for video player -->
+  
+  <link rel="stylesheet" href="./src/main.css">
+  <link rel="stylesheet" href="./src/world.css">
+
+  <!-- swiper -->
+  <link rel="stylesheet" href="./src/swiper-6.3.5/swiper-bundle.css">
+  <script src="./src/swiper-6.3.5/swiper-bundle.js"></script>
+
+  <!-- <script>
+    $(function(){
+  
+        $(window).scroll(function(){
+        //var $(window).scrollTop(); 為 scroll
+             var scroll = $(window).scrollTop();
+            //當卷軸超過70px，自動加上 .navbar-fixed-top ，如果小於就移除
+            if( scroll >= 70){
+      
+                $(".navbar").addClass("navbar-fixed-top");
+      
+            }else{
+      
+                $(".navbar").removeClass("navbar-fixed-top")
+      
+            }
+    
+        });
+
+    })
+    </script> -->
+    <script>
+      $(function(){
+        
+        $('.slidebarup').on('click',function(){
+          
+          $(this).children().addClass('test-a').siblings().removeClass('test-a')
+          //removeClass("test-b")
+          //$(".slidebarup>a").eq(idx).show().$(a).siblings().hide();
+          //$(this).children().removeClass("test-b")
+
+          //siblings().children().removeClass()
+          //$(this).children().removeClass('test-b')
+          
+        })
+      })
+    </script>
+
+    
+  
+</head>
+<body class="bg-dark "style='height:1000px;' >
+  <!--背景  -->
+  
+<!-- 版頭開始 -->
+
+    <nav class="navbar navbar-dark navbar-expand-sm ">
+        <h1 class="navbar-brand" id="logo">GO-trave</h1>
+        <button data-toggle="collapse" data-target='#submenu' class='navbar-toggler'><span class="navbar-toggler-icon"></span></button>
+        <div class='navbar-collapse collapse justify-content-end navbar-collapse-center pt-1 ' id='submenu'>
+            <ul class='navbar-nav navbar-center  nav'>
+                <li class="nav-item "><a href="index3.html" class="nav-link large">首頁</a> </li>
+                <li class="nav-item"><a href="world.html" class="nav-link large  text-info  disabled">國外旅遊</a></li>
+                <li class="nav-item"><a href="taiwan.html" class="nav-link large ">國內旅遊</a></li>
+                <li class="nav-item"><a href="pro-intro.html" class="nav-link large">玩家訂製</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link large">關於我們</a></li>               
+            </ul>
+            <ul class='navbar-nav navbar-right  nav'>
+                <li class="nav-item "><a href="login.html" class="nav-link large"><i class="fas fa-user"></i></a> </li>
+                
+                <li class="nav-item "><a href="#" class="nav-link large"><i class="fas fa-shopping-cart"></i></a> </li>
+            </ul>
+        </div>
+    </nav>
+
+   <!-- Swiper -->
+  <div class="swiper-container gallery-top">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" ><iframe width="100%" height="100%" src="https://www.youtube.com/embed/642e69qB1I4?controls=0&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <div class="swiper-slide" ><iframe width="100%" height="100%" src="https://www.youtube.com/embed/0Xx9GkQ4G0k?controls=0&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <div class="swiper-slide" ><iframe width="100%" height="100%" src="https://www.youtube.com/embed/Zk9J5xnTVMA?controls=0&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <div class="swiper-slide" ><iframe width="100%" height="100%" src="https://www.youtube.com/embed/KGUulIZ6fEI?controls=0&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <div class="swiper-slide" ><iframe width="100%" height="100%" src="https://www.youtube.com/embed/ujfBvO-A6mY?controls=0&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <div class="swiper-slide" ><iframe width="100%" height="100%" src="https://www.youtube.com/embed/efmgzSc_H9k?controls=0&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <div class="swiper-slide" ><iframe width="100%" height="100%" src="https://www.youtube.com/embed/4It9yQSjaGA?controls=0&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <div class="swiper-slide" ><iframe width="100%" height="100%" src="https://www.youtube.com/embed/opD8Uq62v5I?controls=0&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      
+    </div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next swiper-button-white"></div>
+    <div class="swiper-button-prev swiper-button-white"></div>
+  </div>
+  <div class="swiper-container gallery-thumbs">
+    <div class="swiper-wrapper ">
+      <div class="swiper-slide position-re slidebarup" style="background-image:url(./images/ontop1.jpg)"><a href="world-product.html" class="test-b test-a wow fadeInUp " data-wow-delay="0.5s">詳細資訊</a></div>
+      <div class="swiper-slide position-re slidebarup" style="background-image:url(./images/ontop4.jpg)"><a href="world-product.html" class="test-b  wow fadeInUp"  data-wow-delay="0.5s">詳細資訊</a></div>
+      <div class="swiper-slide position-re slidebarup" style="background-image:url(./images/ontop5.jpg)"><a href="world-product.html" class="test-b wow fadeInUp">詳細資訊</a></div>
+      <div class="swiper-slide position-re slidebarup" style="background-image:url(./images/ontop6.jpg)"><a href="world-product.html" class="test-b wow fadeInUp">詳細資訊</a></div>
+      <div class="swiper-slide position-re slidebarup" style="background-image:url(./images/ontop7.jpg)"><a href="world-product.html" class="test-b wow fadeInUp">詳細資訊</a></div>
+      <div class="swiper-slide position-re slidebarup" style="background-image:url(./images/ontop8.jpg)"><a href="world-product.html" class="test-b wow fadeInUp">詳細資訊</a></div>
+      <div class="swiper-slide position-re slidebarup" style="background-image:url(./images/ontop9.jpg)"><a href="world-product.html" class="test-b wow fadeInUp">詳細資訊</a></div>
+      <div class="swiper-slide position-re slidebarup" style="background-image:url(./images/ontop10.jpg)"><a href="world-product.html" class="test-b wow fadeInUp">詳細資訊</a></div>
+    </div>
+  </div>
+
+  
+
+  <!-- Swiper JS -->
+  <script src="../package/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var galleryThumbs = new Swiper('.gallery-thumbs', {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      loop: true,
+      freeMode: true,
+      loopedSlides: 4, //looped slides should be the same
+      watchSlidesVisibility: true,
+      watchSlidesProgress: true,
+    });
+    var galleryTop = new Swiper('.gallery-top', {
+      spaceBetween: 10,
+      loop: true,
+      loopedSlides: 5, //looped slides should be the same
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      thumbs: {
+        swiper: galleryThumbs,
+      },
+    });
+  </script>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="offset-2 col-8 pt-5 pb-5">
+                
+                <img src="./images/world.png" alt="" class="img-fluid worldmap" >
+               
+                <a  href='world-product.html'class="text-white egypt" id="egypt">
+                    <div class="egypt_p golden text-center">埃及</div>
+                </a>
+                <a  href='world-product.html'class="text-white russia" id="russia">
+                  <div class="russia_p golden text-center">俄羅斯</div>
+              </a>
+              
+            </div>
+        </div>
+        
+        
+    </div>
+
+    <!-- 行程開始 -->
+    <div class="row ">
+      <div class="col-12 offset-md-1 col-md-10 bg-color  golden-title text-center">
+        <img src="./images/side-line.png" alt="" class="img-fluid">
+        <sapn >經典海島</span>  
+      </div>   
+    </div>
+
+    <div class="row ">
+      <div class="col-12 offset-md-1 col-md-10 bg-color text-center  ">
+        <div class="swiper-container1 ">
+          <div class="swiper-wrapper">
+            <div class="col-md-4 col-6 wow fadeInUp swiper-slide slide" data-swiper-autoplay='800' data-wow-delay="0.5s" id="product1">
+              <div class="card-title golden-large"> 隱密奢華熱帶天堂-巴哇私島1
+                <img  class='card-img-top' src="./images/ontop1.jpg" alt="batam" class="img-fluid">
+                  <p class="card-text ellipsis-small">Bawah Reserve 位於印尼廖內省的阿南巴斯群島（Anambas Islands），其環境毫無污染、原始氣息濃厚，距離新加坡僅僅 3 小時航程。要造訪這小島，旅客只須先抵達新加坡，由度假村先派遣轎車送您前往新加坡當地碼頭Tanah Merah，以專屬快艇前往巴淡島（Batam Island），轉乘至巴淡島機場以尊榮 VIP 服務入境後，隨即搭乘私人水上飛機抵達目的地。</p>
+                  <a href="world-product.html" class="card-link mb-5 text-white " >查看詳請</a>   
+
+              </div>
+
+            </div>
+            <div class="col-md-4 col-6 wow fadeInUp swiper-slide slide"  data-wow-delay="0.5s" id="product2">
+              <div class="card-title golden-large"> 隱密奢華熱帶天堂-巴哇私島2
+                <img  class='card-img-top' src="./images/ontop1.jpg" alt="batam" class="img-fluid">
+                  <p class="card-text ellipsis-small">Bawah Reserve 位於印尼廖內省的阿南巴斯群島（Anambas Islands），其環境毫無污染、原始氣息濃厚，距離新加坡僅僅 3 小時航程。要造訪這小島，旅客只須先抵達新加坡，由度假村先派遣轎車送您前往新加坡當地碼頭Tanah Merah，以專屬快艇前往巴淡島（Batam Island），轉乘至巴淡島機場以尊榮 VIP 服務入境後，隨即搭乘私人水上飛機抵達目的地。</p>
+                  <a href="world-product.html" class="card-link text-white " >查看詳請</a>   
+
+              </div>
+
+            </div>
+            <div class="col-md-4 col-6 wow fadeInUp swiper-slide slide" data-wow-delay="0.5s" id="product3">
+              <div class="card-title golden-large"> 隱密奢華熱帶天堂-巴哇私島3
+                <img  class='card-img-top' src="./images/ontop1.jpg" alt="batam" class="img-fluid">
+                  <p class="card-text ellipsis-small">Bawah Reserve 位於印尼廖內省的阿南巴斯群島（Anambas Islands），其環境毫無污染、原始氣息濃厚，距離新加坡僅僅 3 小時航程。要造訪這小島，旅客只須先抵達新加坡，由度假村先派遣轎車送您前往新加坡當地碼頭Tanah Merah，以專屬快艇前往巴淡島（Batam Island），轉乘至巴淡島機場以尊榮 VIP 服務入境後，隨即搭乘私人水上飛機抵達目的地。</p>
+                  <a href="world-product.html" class="card-link mb-5 text-white" >查看詳請</a>   
+
+              </div>
+
+            </div>
+            <div class="col-md-4 col-6 wow fadeInUp swiper-slide slide" data-wow-delay="0.5s" id="product4">
+              <div class="card-title golden-large"> 隱密奢華熱帶天堂-巴哇私島4
+                <img  class='card-img-top' src="./images/ontop1.jpg" alt="batam" class="img-fluid">
+                  <p class="card-text ellipsis-small">Bawah Reserve 位於印尼廖內省的阿南巴斯群島（Anambas Islands），其環境毫無污染、原始氣息濃厚，距離新加坡僅僅 3 小時航程。要造訪這小島，旅客只須先抵達新加坡，由度假村先派遣轎車送您前往新加坡當地碼頭Tanah Merah，以專屬快艇前往巴淡島（Batam Island），轉乘至巴淡島機場以尊榮 VIP 服務入境後，隨即搭乘私人水上飛機抵達目的地。</p>
+                  <a href="world-product.html" class="card-link mb-5 text-white" >查看詳請</a>   
+
+              </div>
+
+            </div>
+            <div class="col-md-4 col-6 wow fadeInUp swiper-slide slide" data-wow-delay="0.5s"  id="product5">
+              <div class="card-title golden-large"> 隱密奢華熱帶天堂-巴哇私島5
+                <img  class='card-img-top' src="./images/ontop1.jpg" alt="batam" class="img-fluid">
+                  <p class="card-text ellipsis-small">Bawah Reserve 位於印尼廖內省的阿南巴斯群島（Anambas Islands），其環境毫無污染、原始氣息濃厚，距離新加坡僅僅 3 小時航程。要造訪這小島，旅客只須先抵達新加坡，由度假村先派遣轎車送您前往新加坡當地碼頭Tanah Merah，以專屬快艇前往巴淡島（Batam Island），轉乘至巴淡島機場以尊榮 VIP 服務入境後，隨即搭乘私人水上飛機抵達目的地。</p>
+                  <a href="world-product.html" class="card-link mb-5 text-white" >查看詳請</a>   
+
+              </div>
+
+            </div>
+            <div class="col-md-4 col-6 wow fadeInUp swiper-slide1 slide" data-wow-delay="0.5s" id="product6">
+              <div class="card-title golden-large"> 隱密奢華熱帶天堂-巴哇私島6
+                <img  class='card-img-top' src="./images/ontop1.jpg" alt="batam" class="img-fluid">
+                  <p class="card-text ellipsis-small">Bawah Reserve 位於印尼廖內省的阿南巴斯群島（Anambas Islands），其環境毫無污染、原始氣息濃厚，距離新加坡僅僅 3 小時航程。要造訪這小島，旅客只須先抵達新加坡，由度假村先派遣轎車送您前往新加坡當地碼頭Tanah Merah，以專屬快艇前往巴淡島（Batam Island），轉乘至巴淡島機場以尊榮 VIP 服務入境後，隨即搭乘私人水上飛機抵達目的地。</p>
+                  <a href="world-product.html" class="card-link mb-5 text-white" >查看詳請</a>   
+
+              </div>
+
+            </div>
+            <script>
+              var swiper = new Swiper('.swiper-container1', {
+                slidesPerView: 3,
+                loop: true,
+                autoplay:{
+                  delay:2000,
+                  disableOnInteraction:true,
+                },
+                pagination: {
+                  el: '.swiper-pagination',
+                  clickable: true,
+                }, 
+              });
+              $(function(){
+                
+              })
+           
+            </script>
+          
+            <script>
+              $(function(){
+                $('#product1').click(function(){
+                  
+                  $(location).attr('href', 'world-product.html');
+                })
+              })
+
+
+            </script>
+
+           
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="row ">
+        <div class="col-12 offset-md-1 col-md-10 bg-color  golden-title text-center">
+          <img src="./images/side-line.png" alt="" class="img-fluid">
+          <sapn >經典行程</span>  
+        </div>   
+      </div>
+  
+      <div class="row ">
+        <div class="col-12 offset-md-1 col-md-10 bg-color text-center  ">
+          <div class="swiper-container1 ">
+            <div class="swiper-wrapper">
+              <div class="col-md-4 col-6 wow fadeInUp swiper-slide slide" data-swiper-autoplay='800' data-wow-delay="0.5s" id="product1">
+                <div class="card-title golden-large"> 隱密奢華熱帶天堂-巴哇私島1
+                  <img  class='card-img-top' src="./images/ontop3.jpg" alt="batam" class="img-fluid">
+                    <p class="card-text ellipsis-small">Bawah Reserve 位於印尼廖內省的阿南巴斯群島（Anambas Islands），其環境毫無污染、原始氣息濃厚，距離新加坡僅僅 3 小時航程。要造訪這小島，旅客只須先抵達新加坡，由度假村先派遣轎車送您前往新加坡當地碼頭Tanah Merah，以專屬快艇前往巴淡島（Batam Island），轉乘至巴淡島機場以尊榮 VIP 服務入境後，隨即搭乘私人水上飛機抵達目的地。</p>
+                    <a href="world-product.html" class="card-link mb-5 text-white " >查看詳請</a>   
+  
+                </div>
+  
+              </div>
+              <div class="col-md-4 col-6 wow fadeInUp swiper-slide slide"  data-wow-delay="0.5s" id="product2">
+                <div class="card-title golden-large"> 隱密奢華熱帶天堂-巴哇私島2
+                  <img  class='card-img-top' src="./images/ontop4.jpg" alt="batam" class="img-fluid">
+                    <p class="card-text ellipsis-small">Bawah Reserve 位於印尼廖內省的阿南巴斯群島（Anambas Islands），其環境毫無污染、原始氣息濃厚，距離新加坡僅僅 3 小時航程。要造訪這小島，旅客只須先抵達新加坡，由度假村先派遣轎車送您前往新加坡當地碼頭Tanah Merah，以專屬快艇前往巴淡島（Batam Island），轉乘至巴淡島機場以尊榮 VIP 服務入境後，隨即搭乘私人水上飛機抵達目的地。</p>
+                    <a href="world-product.html" class="card-link text-white " >查看詳請</a>   
+  
+                </div>
+  
+              </div>
+              <div class="col-md-4 col-6 wow fadeInUp swiper-slide slide" data-wow-delay="0.5s" id="product3">
+                <div class="card-title golden-large"> 隱密奢華熱帶天堂-巴哇私島3
+                  <img  class='card-img-top' src="./images/ontop5.jpg" alt="batam" class="img-fluid">
+                    <p class="card-text ellipsis-small">Bawah Reserve 位於印尼廖內省的阿南巴斯群島（Anambas Islands），其環境毫無污染、原始氣息濃厚，距離新加坡僅僅 3 小時航程。要造訪這小島，旅客只須先抵達新加坡，由度假村先派遣轎車送您前往新加坡當地碼頭Tanah Merah，以專屬快艇前往巴淡島（Batam Island），轉乘至巴淡島機場以尊榮 VIP 服務入境後，隨即搭乘私人水上飛機抵達目的地。</p>
+                    <a href="world-product.html" class="card-link mb-5 text-white" >查看詳請</a>   
+  
+                </div>
+  
+              </div>
+              <div class="col-md-4 col-6 wow fadeInUp swiper-slide slide" data-wow-delay="0.5s" id="product4">
+                <div class="card-title golden-large"> 隱密奢華熱帶天堂-巴哇私島4
+                  <img  class='card-img-top' src="./images/ontop6.jpg" alt="batam" class="img-fluid">
+                    <p class="card-text ellipsis-small">Bawah Reserve 位於印尼廖內省的阿南巴斯群島（Anambas Islands），其環境毫無污染、原始氣息濃厚，距離新加坡僅僅 3 小時航程。要造訪這小島，旅客只須先抵達新加坡，由度假村先派遣轎車送您前往新加坡當地碼頭Tanah Merah，以專屬快艇前往巴淡島（Batam Island），轉乘至巴淡島機場以尊榮 VIP 服務入境後，隨即搭乘私人水上飛機抵達目的地。</p>
+                    <a href="world-product.html" class="card-link mb-5 text-white" >查看詳請</a>   
+  
+                </div>
+  
+              </div>
+              <div class="col-md-4 col-6 wow fadeInUp swiper-slide slide" data-wow-delay="0.5s"  id="product5">
+                <div class="card-title golden-large"> 隱密奢華熱帶天堂-巴哇私島5
+                  <img  class='card-img-top' src="./images/ontop7.jpg" alt="batam" class="img-fluid">
+                    <p class="card-text ellipsis-small">Bawah Reserve 位於印尼廖內省的阿南巴斯群島（Anambas Islands），其環境毫無污染、原始氣息濃厚，距離新加坡僅僅 3 小時航程。要造訪這小島，旅客只須先抵達新加坡，由度假村先派遣轎車送您前往新加坡當地碼頭Tanah Merah，以專屬快艇前往巴淡島（Batam Island），轉乘至巴淡島機場以尊榮 VIP 服務入境後，隨即搭乘私人水上飛機抵達目的地。</p>
+                    <a href="world-product.html" class="card-link mb-5 text-white" >查看詳請</a>   
+  
+                </div>
+  
+              </div>
+              <div class="col-md-4 col-6 wow fadeInUp swiper-slide1 slide" data-wow-delay="0.5s" id="product6">
+                <div class="card-title golden-large"> 隱密奢華熱帶天堂-巴哇私島6
+                  <img  class='card-img-top' src="./images/ontop8.jpg" alt="batam" class="img-fluid">
+                    <p class="card-text ellipsis-small">Bawah Reserve 位於印尼廖內省的阿南巴斯群島（Anambas Islands），其環境毫無污染、原始氣息濃厚，距離新加坡僅僅 3 小時航程。要造訪這小島，旅客只須先抵達新加坡，由度假村先派遣轎車送您前往新加坡當地碼頭Tanah Merah，以專屬快艇前往巴淡島（Batam Island），轉乘至巴淡島機場以尊榮 VIP 服務入境後，隨即搭乘私人水上飛機抵達目的地。</p>
+                    <a href="world-product.html" class="card-link mb-5 text-white" >查看詳請</a>   
+  
+                </div>
+  
+              </div>
+              <script>
+                var swiper = new Swiper('.swiper-container1', {
+                  slidesPerView: 3,
+                  loop: true,
+                  autoplay:{
+                    delay:2000,
+                    disableOnInteraction:true,
+                  },
+                  pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                  }, 
+                });
+               
+              </script>
+            
+              <script>
+                $(function(){
+                  $('#product1').click(function(){
+                    
+                    $(location).attr('href', 'world-product.html');
+                  })
+                })
+  
+  
+              </script>
+  
+             
+  
+            </div>
+          </div>
+        </div>
+      </div>
+  
+
+
+
+ 
+    <!-- 尾部 -->
+    <div class="container-fluid ">
+        <div class="row "> 
+            <div class="col-12 bg-color fa-2x text-center ">
+            <i class="fab fa-twitter  socialIcon " ></i>
+            <i class="fab fa-facebook-f  socialIcon"></i>
+            <i class="fab fa-instagram  socialIcon"></i>
+            <i class="fab fa-vimeo  socialIcon"></i>
+            <i class="fab fa-youtube  socialIcon"></i>
+            <p class='text-white h6'>&copy;Allright design by Ruby</p>
+            </div>
+        </div>
+    </div>  
+    
+    
+  
+   
+
+  
+</body>
+</html>

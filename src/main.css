@@ -1,0 +1,128 @@
+html{
+    font-size: 14px;
+   
+    text-decoration: none;
+}
+
+.body{
+    height: 100%;
+    width: 100%;
+
+
+}
+/* 字體相關css */
+.golden{
+    color: #b6984d;
+
+}
+
+.golden-large{
+    color: #eed390;
+   font-size: 1.5rem;
+
+}
+
+.golden-title{
+    color:  #d8b45a;
+    font-size: 2rem;
+  
+
+}
+@font-face {
+    font-family:Allura;
+    src: url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+}
+
+
+/* 字體相關css 結束*/
+.nav-p{
+position: absolute;
+left: 40%;
+}
+.nav-i{
+    position: absolute;
+    left: 90%;
+    top:40%;
+   
+
+}
+.large{
+    font-size: 20px;
+
+}
+
+#logo{
+    font-size: 40px;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+}
+
+.bg-color{
+    background-color:rgba(0, 0, 0, 0.3) ;
+
+}
+
+nav{
+    background-color: rgba(0,0,0,0.35);
+    /* 用動畫做過度 */
+    transition: all 0.5s;
+
+
+}
+nav:hover{
+    background-color: rgba(0,0,0,1);
+
+}
+
+#logo{
+    animation: showAn 1s;
+    animation-delay: 1s;
+
+
+
+}
+
+/* 方法一 */
+@keyframes showAni{
+    from{transform: scale(0.2,0.2);opacity: 0;}
+    to{transform: scale(1,1);opacity: 1;}
+
+
+}
+/* 方法二 */
+@keyframes showAn{
+    0%{transform: scale(0.2,0.2);opacity: 0;}
+    45%{transform: scale(1,1);opacity: 1;}
+    /* 中間10是停留時間 */
+
+    55%{transform: scale(1,1);opacity: 1;}
+    100%{transform: scale(1,1);opacity: 0;}
+
+}
+.navbar-center {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar-collapse-center {
+    text-align: center;
+}
+
+
+.navbar-nav .nav-link:hover {
+    background-color:  rgba(0,0,0,1);
+    color: lightblue !important;
+}
+
+
+.socialIcon{
+    width: 45px;
+    height:  45px;
+    text-align: center;
+    color:white;
+    border: 1px solid skyblue;
+    border-radius: 50px;
+    line-height: 45px;
+    margin: 5px;
+
+}
